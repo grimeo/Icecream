@@ -18,17 +18,17 @@
   border-radius: 10px;
 }
 .fb {
-  background-image: url("../icons/fb_icon.png");
+  background-image: url("./icons/fb_icon.png");
 }
 
 .twitter {
-  background-image: url("../icons/twitter_icon.png");
+  background-image: url("./icons/twitter_icon.png");
 }
 
 .insta{
-  background-image: url("../icons/instagram_icon.jpeg");
+  background-image: url("./icons/instagram_icon.jpeg");
 }
 
 .gmail {
-  background-image: url("../icons/gmail_icon.png");
+  background-image: url("./icons/gmail_icon.png");
 }
