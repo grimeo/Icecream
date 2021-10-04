@@ -1,0 +1,34 @@
+.contact_div {
+  width: 90%;
+  margin: auto;
+}
+.contact_list {
+  display: flexbox;
+  align-items: center;
+  text-align: center;
+}
+
+.contact_a {
+  display:inline-block;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: 50px 50px;
+  border-radius: 10px;
+}
+.fb {
+  background-image: url("/icons/fb_icon.png");
+}
+
+.twitter {
+  background-image: url("/icons/twitter_icon.png");
+}
+
+.insta{
+  background-image: url("/icons/instagram_icon.jpeg");
+}
+
+.gmail {
+  background-image: url("/icons/gmail_icon.png");
+}

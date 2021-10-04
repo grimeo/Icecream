@@ -1,0 +1,88 @@
+@import "/css/headerNav.css"; 
+@import "/css/frontImg.css";
+@import "/css/iceCreamTitle.css";
+@import "/css/intro.css"; 
+@import "/css/steps.css";
+@import "/css/about.css";
+@import "/css/contacts.css"; 
+@import "/css/footer.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  color: black;;
+}
+
+.left {
+  float: left;
+}
+
+.leftNav {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.rightNav {
+  float: right;
+}
+
+.textart0 {
+  text-decoration: none;
+}
+
+
+@media only screen and (min-width: 300px) and ( max-width: 767px) {
+  .frontImg{
+    width: 100%;
+    height:220px;
+    margin-top: 30px;
+    border-radius: 5px;
+    background-image: url("/img/ic1.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 220px;
+  }
+  
+  .right, .left {
+    float: none;
+  }
+  
+  .steps {
+    width: 90%;
+    margin: 40px auto 20px auto;
+  }
+  
+  .step_div {
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+  
+  .step_text {
+    display:block;
+    width: 100%;
+  }
+  
+  .img {
+    align-self: center;
+    width: 80%;
+    height: 180px;
+    background-image: url("/img/ic.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 180px;
+    margin: 20px auto;
+    border: 1px solid gray;
+    border-radius: 10px;
+  }
+  
+  .guide {
+    text-indent: 40px;
+    text-align: justify;
+  }
+  
+} 

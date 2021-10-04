@@ -1,0 +1,31 @@
+.steps {
+  width: 90%;
+  margin: 40px auto 20px auto;
+}
+
+.step_div {
+  width: max-width;
+  height: 250px;
+}
+
+.step_text {
+  display: inline-block;
+  width: 50%;
+}
+
+.img {
+  display: inline-block;
+  width: 45%;
+  height: 207px;
+  background-image: url("/img/ic.jpeg");
+  background-repeat: no-repeat;
+  background-size:100% 207px; 
+  margin: 20px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+.guide {
+  text-indent: 40px;
+  text-align: justify;
+}

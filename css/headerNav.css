@@ -1,0 +1,33 @@
+.header_nav_ul {
+  position: fixed;
+  width: 100%;
+  top:0px;
+  left:0px;
+  list-style-type: none;
+  background-color: chocolate;
+  padding: 0px 5px;
+  margin: 0px 0px;
+  overflow: hidden;
+}
+.header_list {
+  padding: 5px;
+  margin: 0 10px 0 10px;
+}
+
+
+.header_a {
+  display: block;
+  width: 130px;
+  height: 45px;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.header_a:hover {
+  background-color: whitesmoke;
+  color: slategray;
+  border-radius: 5px;
+}
