@@ -1,11 +1,11 @@
-@import "/css/headerNav.css"; 
-@import "/css/frontImg.css";
-@import "/css/iceCreamTitle.css";
-@import "/css/intro.css"; 
-@import "/css/steps.css";
-@import "/css/about.css";
-@import "/css/contacts.css"; 
-@import "/css/footer.css";
+@import "../css/headerNav.css"; 
+@import "../css/frontImg.css";
+@import "../css/iceCreamTitle.css";
+@import "../css/intro.css"; 
+@import "../css/steps.css";
+@import "../css/about.css";
+@import "../css/contacts.css"; 
+@import "../css/footer.css";
 
 * {
   box-sizing: border-box;
@@ -43,7 +43,7 @@ body {
     height:220px;
     margin-top: 30px;
     border-radius: 5px;
-    background-image: url("/img/ic1.jpeg");
+    background-image: url("../img/ic1.jpeg");
     background-repeat: no-repeat;
     background-size: 100% 220px;
   }
@@ -72,7 +72,7 @@ body {
     align-self: center;
     width: 80%;
     height: 180px;
-    background-image: url("/img/ic.jpeg");
+    background-image: url("../img/ic.jpeg");
     background-repeat: no-repeat;
     background-size: 100% 180px;
     margin: 20px auto;
