@@ -5,7 +5,7 @@
 
 .step_div {
   width: max-width;
-  height: 250px;
+  height: auto;
 }
 
 .step_text {
