@@ -16,9 +16,6 @@ body {
   color: black;
 }
 
-p{
-  font-size: 18px;
-}
 
 .left {
   float: left;
@@ -42,9 +39,6 @@ p{
 
 
 @media only screen and (min-width: 300px) and ( max-width: 767px) {
-  p {
-    font-size: 18px;
-  }
   
   .frontImg{
     width: 100%;
@@ -73,6 +67,7 @@ p{
   
   .step_text {
     display:block;
+    font-size: 18px;
     width: 100%;
   }
   
@@ -89,6 +84,7 @@ p{
   }
   
   .guide {
+    font-size: 18px;
     text-indent: 40px;
     text-align: justify;
   }
