@@ -1,11 +1,11 @@
-@import "/css/headerNav.css"; 
-@import "/css/frontImg.css";
-@import "/css/iceCreamTitle.css";
-@import "/css/intro.css"; 
-@import "/css/steps.css";
-@import "/css/about.css";
-@import "/css/contacts.css"; 
-@import "/css/footer.css";
+@import "./css/headerNav.css"; 
+@import "./css/frontImg.css";
+@import "./css/iceCreamTitle.css";
+@import "./css/intro.css"; 
+@import "./css/steps.css";
+@import "./css/about.css";
+@import "./css/contacts.css"; 
+@import "./css/footer.css";
 
 * {
   box-sizing: border-box;
